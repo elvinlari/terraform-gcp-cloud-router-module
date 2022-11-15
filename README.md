@@ -8,8 +8,8 @@ Basic usage of this module is as follows:
 
 ```hcl
 module "cloud_router" {
-  source  = "elvinlari/bucket-module/gcp"
-  version = "1.0.1"
+  source  = "elvinlari/cloud-router-module/gcp"
+  version = "1.0.2"
 
   name    = "example-router"
   project = "<PROJECT ID>"
