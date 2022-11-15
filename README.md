@@ -8,8 +8,8 @@ Basic usage of this module is as follows:
 
 ```hcl
 module "cloud_router" {
-  source  = "terraform-google-modules/cloud-router/google"
-  version = "~> 4.0"
+  source  = "elvinlari/bucket-module/gcp"
+  version = "1.0.1"
 
   name    = "example-router"
   project = "<PROJECT ID>"
